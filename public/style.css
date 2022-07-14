@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#form-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(aliceblue, navy);
+}
+
+#form-box{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#form-box > img{
+    margin-bottom: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+input[type="text"], input[type="password"]{
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    outline: none;
+    font: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type="submit"]{
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px 0px;
+    background-color:skyblue;
+    color: navy;
+}
+
+#error{
+    color: red;
+}
